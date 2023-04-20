@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background: conic-gradient(from -90deg at 25% 115%, #ff0000, #ff0066, #ff00cc, #cc00ff, #6600ff, #0000ff, #0000ff, #0000ff, #0000ff) no-repeat;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.main-container{
+    border: black 2px solid;
+    border-radius: 5px;
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.clock{
+    background-color: rgba(99, 99, 99, 0.26);
+    padding: 30px;
+    border: black 2px solid;
+    border-radius: 5px;
+}
+
+.devguicordeirofooter {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 3vh;
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  .fa-github {
+    color: black;
+    font-size: 20px;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 7px;
+  }
+  
+  .fa-github:hover {
+    transform: rotate(360deg) scale(1.3);
+  }
