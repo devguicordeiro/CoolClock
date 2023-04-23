@@ -1,4 +1,4 @@
-# Cool-Clock-7thJSProject
+# CoolClock
 
 to be honest, this one was a little tricky </br>
 i got really confused sometimes in the js code but still </br>
